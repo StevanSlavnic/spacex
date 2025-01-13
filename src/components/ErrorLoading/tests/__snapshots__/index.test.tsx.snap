@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ErrorLoading renders the error message 1`] = `
+<div>
+  <div>
+    <p>
+      Something went wrong...
+    </p>
+    <p>
+      Try refreshing the page or check your internet connection.
+    </p>
+  </div>
+</div>
+`;

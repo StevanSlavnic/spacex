@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Footer component renders without crashing 1`] = `
+<footer
+  class="bg-gray-800 p-4"
+>
+  <div
+    class="container mx-auto flex justify-center items-center"
+  >
+    <p
+      class="text-white text-lg"
+    >
+      © 2024 SpaceX Launches
+    </p>
+  </div>
+</footer>
+`;
