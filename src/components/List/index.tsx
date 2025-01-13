@@ -1,3 +1,5 @@
+import { memo } from "react";
+
 interface ListProps<T> {
   role?: string;
   style?: string;
@@ -18,4 +20,4 @@ const List = <T extends {}>({
   );
 };
 
-export default List as typeof List;
+export default memo(List) as typeof List;
