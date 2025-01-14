@@ -1,0 +1,5 @@
+node_modules
+/dist
+clover.xml
+/coverage
+.DS_Store

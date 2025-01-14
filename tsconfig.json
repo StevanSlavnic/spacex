@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "jsx": "react-jsx",
+    "strict": true,
+    "moduleResolution": "Node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": ["src", "**/*.test.ts", "**/*.test.tsx", "./jest-setup.ts"],
+  "exclude": ["node_modules"],
+  "paths": {
+    "test-utils": ["./utils/test-utils"]
+  },
+  "setupFilesAfterEnv": ["<rootDir>/jest-setup.ts"]
+}

@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@layer components {
+  .container {
+    @apply px-8;
+    margin: 0 auto;
+
+    @media screen and (min-width: 640px) {
+      max-width: 100%;
+    }
+
+    @media screen and (min-width: 1024px) {
+      max-width: 1024px;
+    }
+
+    @media screen and (min-width: 1280px) {
+      max-width: 1128px;
+    }
+  }
+}
