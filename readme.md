@@ -108,7 +108,7 @@ Preview the production build:
 npm run preview
 ```
 
-### Deploy on Netifly
+### Deploy on Netlify
 
 Read
 
