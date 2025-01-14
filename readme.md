@@ -173,7 +173,7 @@ spacex-launches/
 ├── index.html        # HTML entry point
 ├── jest.config.js    # Jest configuration
 ├── jest.setup.ts     # Jest setup file
-├── netifly.toml      # Netifly config
+├── netlify.toml      # Netifly config
 ├── package-lock.json # Dependency lock file
 ├── package.json      # Project configuration
 ├── postcss.config.js # Postcss config
