@@ -1,4 +1,4 @@
-export const SPACEX_URL: string = "https://api.spacexdata.com/v4";
+export const SPACEX_URL: string = "https://api.spacexdata.com/v5";
 
 export const LAUNCHES_QUERY_KEY: string = "launches";
 export const FAVORITE_LAUNCHES_QUERY_KEY: string = "favoriteLaunches";
